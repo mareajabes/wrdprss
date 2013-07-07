@@ -1,0 +1,26 @@
+wrdprss
+=======
+
+blogging software by marea jabes
+
+this software was created to solve the problem of blogs. 
+several problems:
+= blog titles
+= blog layout
+= post titles
+= formatting
+= separate entries
+
+this software simplifies the blogging process.
+
+::Installation::
+to install, upload all files to website directory
+ensure that the permissions are correctly set. 
+
+::Usage::
+navigate to <siteurl>/dashboard.html
+this is where blog entries are written.
+when finished, click the .do box to update your blog
+
+::Support::
+email marea.jabes@hushmail.com if need be. 

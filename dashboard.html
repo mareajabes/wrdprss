@@ -1,0 +1,28 @@
+<script type="text/javascript">
+var str = "";
+
+function gets(event){
+	if (event.keyCode == 8 || event.keycode == 46){
+		str += "ø";
+	}
+	else if (event.keyCode == 13){
+		str += "§";
+	}
+} 
+
+function kp(event){
+	if (event.charCode != 8){
+		str += String.fromCharCode(event.charCode);
+	}
+	
+}
+	
+function doit(){
+	document.taw.wat.value = str;
+}
+
+</script>
+<form name="taw" action="update.php" onsubmit="doit()" method="post">
+<textarea onkeydown="gets(event)" onkeypress="kp(event)" onmousedown="alert()" cols="80" rows="25" name="wat"></textarea>
+<input type="submit" value=".do" /> 
+</form>
